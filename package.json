@@ -1,11 +1,14 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "my-storybook-addon",
   "version": "1.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "My first storybook addon",
   "keywords": [
     "storybook-addons",
+    "appearance",
     "style",
-    "test"
+    "css",
+    "layout",
+    "debug"
   ],
   "repository": {
     "type": "git",
@@ -61,12 +64,10 @@
     }
   },
   "storybook": {
-    "displayName": "Addon Kit",
-    "supportedFrameworks": [
-      "react",
-      "vue",
-      "angular"
+    "displayName": "My Storybook Addon",
+    "unsupportedFrameworks": [
+      "react-native"
     ],
-    "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+    "icon": "https://user-images.githubusercontent.com/42671/108890710-e9755300-75db-11eb-8824-564be739279f.png"
   }
 }
